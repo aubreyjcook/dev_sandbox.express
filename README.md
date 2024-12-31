@@ -21,3 +21,38 @@ This repo was created and maintained mainly by developer AJC. This outline is me
 #### Tutorials
 
 #### Articles
+
+## Config-Init Log
+
+This mainly serves as a log of the initial configuration steps taken for the project, especially cli commands like npm package installations and configurations. While this section is optional, it saves headache medicine.
+
+```
+cmd-
+$ npm init -y
+Wrote to [ path redacted ]
+
+out-
+{
+  "name": "dev_sandbox.express",
+  "version": "1.0.0",
+  "description": "This is a sandbox repo dedicated to a specific technology, that technology is: [Technology Name].",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+cmd-
+$ npm install express
+
+out-
+ added 68 packages, and audited 69 packages in 2s
+
+14 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+```
